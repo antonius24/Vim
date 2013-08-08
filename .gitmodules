@@ -4,3 +4,9 @@
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = git://github.com/vim-scripts/taglist.vim
+[submodule "bundle/winmanager"]
+	path = bundle/winmanager
+	url = git://github.com/vim-scripts/winmanager
+[submodule "bundle/bufexplorer"]
+	path = bundle/bufexplorer
+	url = git://github.com/corntrace/bufexplorer
