@@ -25,6 +25,9 @@ set ruler
 set showmode  
 "ignore case if search pattern is all lowercase
 set smartcase
+"enter paste mode
+set pastetoggle=<F2>
+
 
 "*******************************************
 "              Taglist
@@ -55,3 +58,5 @@ let g:winManagerWindowLayout = "FileExplorer|TagList,BufExplorer"
 let g:winManagerWidth = 30
 "map wm to WMToggle
 nmap wm :WMToggle<cr>
+"BufExplorer will not change height when only one file is in it
+let g:miniBufExplorerMoreThanOne = 0
